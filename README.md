@@ -40,4 +40,4 @@ Finally, you will need to use the provided datasets required for DeepFaceLab tra
 3. Copy both pretrain_CelebA and pretrain_Quick96 to the directory DeepFaceLab_Linux/
 
 ## 5. Navigate to the scripts directory and begin using DeepFaceLab_Linux :)
-
+You can use the provided `gui.sh` script to quickly run the scripts by double-clicking them in a list. The GUI requires that `zenity` is available on the system.
