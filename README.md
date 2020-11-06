@@ -15,9 +15,9 @@ Just run it in the terminal.
 ```bash
  conda create -n deepfacelab -c main python=3.7 cudnn=7.6.5 cudatoolkit=10.0.130
  conda activate deepfacelab
- git clone https://github.com/nagadit/DeepFaceLab_Linux.git
+ git clone --depth 1 https://github.com/nagadit/DeepFaceLab_Linux.git
  cd DeepFaceLab_Linux
- git clone https://github.com/iperov/DeepFaceLab.git
+ git clone --depth 1 https://github.com/iperov/DeepFaceLab.git
  python -m pip install -r ./DeepFaceLab/requirements-cuda.txt
 ```
 
